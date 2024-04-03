@@ -1,0 +1,81 @@
+* {
+    color:white
+}
+
+body {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 20%, rgba(0,255,0,1) 40%, rgba(0,255,255,1) 60%, rgba(0,0,255,1) 80%, rgba(255,0,255,1) 100%);
+    padding-top: 15%;
+}
+
+h1.title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: auto;
+    /* margin-bottom: 15px */
+    /* margin: 0; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    width: fit-content;
+    /* background-size:cover; */
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 20%, rgba(0,255,0,1) 40%, rgba(0,255,255,1) 60%, rgba(0,0,255,1) 80%, rgba(255,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.nav {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    width:100%;
+    /* border: 15px, solid, white; */
+    background-color: black;
+}
+
+div.nav nav {
+    list-style-type: none;
+    /* width: fit-content; */
+    /* width:100%; */
+    height: fit-content;
+    /* left:0; */
+    margin: 10px;
+    border: 5px, solid, white;
+}
+
+/* div.nav ul li {
+    float: left;
+    min-width: 25%;
+    padding: 10%;
+    border: 5px, solid, white;
+} */
+
+div.nav nav a {
+    /* display: block; */
+    background-color: lightgrey;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* margin:5% */
+    /* padding-left: 5%; */
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.nav nav a:hover {
+    background-color: darkgrey;
+}
+
+div.nav nav a.active {
+    background-color: darkslategrey;
+}

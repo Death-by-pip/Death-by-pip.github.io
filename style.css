@@ -1,14 +1,16 @@
 * {
-    color:white
+    color: white;
+    text-shadow: 0 0 3px black;
 }
 
 body {
     background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 20%, rgba(0,255,0,1) 40%, rgba(0,255,255,1) 60%, rgba(0,0,255,1) 80%, rgba(255,0,255,1) 100%);
-    /* padding-top: 15%; */
+    padding-top: 75px;
 }
 
 h1.title {
+    text-shadow: none;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     padding: 0;
@@ -70,6 +72,7 @@ div.nav nav a {
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    text-shadow: none;
 }
 
 div.nav nav a:hover {

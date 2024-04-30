@@ -3,6 +3,22 @@
     text-shadow: 0 0 3px black;
 }
 
+div.gallery {
+    overflow: hidden;
+    height: 200px;
+    margin: auto;
+    padding: auto;
+}
+
+div.gallery div {
+    width: fit-content;
+    margin: auto;
+}
+
+div.gallery div img {
+    height: 180px;
+}
+
 div.program {
     background-color: black;
     /* border: 5px, solid, white; */
